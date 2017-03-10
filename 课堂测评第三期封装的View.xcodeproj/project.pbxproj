@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA8C15391E6EA48C00FF253D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8C15381E6EA48C00FF253D /* main.m */; };
+		BA8C153C1E6EA48C00FF253D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8C153B1E6EA48C00FF253D /* AppDelegate.m */; };
+		BA8C153F1E6EA48C00FF253D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8C153E1E6EA48C00FF253D /* ViewController.m */; };
+		BA8C15421E6EA48C00FF253D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8C15401E6EA48C00FF253D /* Main.storyboard */; };
+		BA8C15441E6EA48C00FF253D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8C15431E6EA48C00FF253D /* Assets.xcassets */; };
+		BA8C15471E6EA48C00FF253D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8C15451E6EA48C00FF253D /* LaunchScreen.storyboard */; };
+		BA8C15521E6EA48C00FF253D /* __________ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8C15511E6EA48C00FF253D /* __________ViewTests.m */; };
+		BA8C155D1E6EA48C00FF253D /* __________ViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8C155C1E6EA48C00FF253D /* __________ViewUITests.m */; };
+		BA8C15711E6EBC9100FF253D /* SXClassTestReportChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8C15701E6EBC9100FF253D /* SXClassTestReportChooseView.m */; };
+		BAF2FADF1E712B78003AE20A /* dataSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAF2FADE1E712B78003AE20A /* dataSource.plist */; };
+		BAF2FAE21E713670003AE20A /* SXLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF2FAE11E713670003AE20A /* SXLineChart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA8C154E1E6EA48C00FF253D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8C152C1E6EA48C00FF253D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8C15331E6EA48C00FF253D;
+			remoteInfo = "课堂测评第三期封装的View";
+		};
+		BA8C15591E6EA48C00FF253D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8C152C1E6EA48C00FF253D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8C15331E6EA48C00FF253D;
+			remoteInfo = "课堂测评第三期封装的View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA8C15341E6EA48C00FF253D /* 课堂测评第三期封装的View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "课堂测评第三期封装的View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8C15381E6EA48C00FF253D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA8C153A1E6EA48C00FF253D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA8C153B1E6EA48C00FF253D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA8C153D1E6EA48C00FF253D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA8C153E1E6EA48C00FF253D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA8C15411E6EA48C00FF253D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA8C15431E6EA48C00FF253D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8C15461E6EA48C00FF253D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA8C15481E6EA48C00FF253D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8C154D1E6EA48C00FF253D /* 课堂测评第三期封装的ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "课堂测评第三期封装的ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8C15511E6EA48C00FF253D /* __________ViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________ViewTests.m"; sourceTree = "<group>"; };
+		BA8C15531E6EA48C00FF253D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8C15581E6EA48C00FF253D /* 课堂测评第三期封装的ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "课堂测评第三期封装的ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8C155C1E6EA48C00FF253D /* __________ViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________ViewUITests.m"; sourceTree = "<group>"; };
+		BA8C155E1E6EA48C00FF253D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8C156F1E6EBC9100FF253D /* SXClassTestReportChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXClassTestReportChooseView.h; sourceTree = "<group>"; };
+		BA8C15701E6EBC9100FF253D /* SXClassTestReportChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXClassTestReportChooseView.m; sourceTree = "<group>"; };
+		BAF2FADE1E712B78003AE20A /* dataSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dataSource.plist; sourceTree = "<group>"; };
+		BAF2FAE01E713670003AE20A /* SXLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXLineChart.h; sourceTree = "<group>"; };
+		BAF2FAE11E713670003AE20A /* SXLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXLineChart.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA8C15311E6EA48C00FF253D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8C154A1E6EA48C00FF253D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8C15551E6EA48C00FF253D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA8C152B1E6EA48C00FF253D = {
+			isa = PBXGroup;
+			children = (
+				BA8C15361E6EA48C00FF253D /* 课堂测评第三期封装的View */,
+				BA8C15501E6EA48C00FF253D /* 课堂测评第三期封装的ViewTests */,
+				BA8C155B1E6EA48C00FF253D /* 课堂测评第三期封装的ViewUITests */,
+				BA8C15351E6EA48C00FF253D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA8C15351E6EA48C00FF253D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA8C15341E6EA48C00FF253D /* 课堂测评第三期封装的View.app */,
+				BA8C154D1E6EA48C00FF253D /* 课堂测评第三期封装的ViewTests.xctest */,
+				BA8C15581E6EA48C00FF253D /* 课堂测评第三期封装的ViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA8C15361E6EA48C00FF253D /* 课堂测评第三期封装的View */ = {
+			isa = PBXGroup;
+			children = (
+				BA8C153A1E6EA48C00FF253D /* AppDelegate.h */,
+				BA8C153B1E6EA48C00FF253D /* AppDelegate.m */,
+				BA8C153D1E6EA48C00FF253D /* ViewController.h */,
+				BA8C153E1E6EA48C00FF253D /* ViewController.m */,
+				BAF2FADE1E712B78003AE20A /* dataSource.plist */,
+				BA8C156F1E6EBC9100FF253D /* SXClassTestReportChooseView.h */,
+				BA8C15701E6EBC9100FF253D /* SXClassTestReportChooseView.m */,
+				BAF2FAE01E713670003AE20A /* SXLineChart.h */,
+				BAF2FAE11E713670003AE20A /* SXLineChart.m */,
+				BA8C15401E6EA48C00FF253D /* Main.storyboard */,
+				BA8C15431E6EA48C00FF253D /* Assets.xcassets */,
+				BA8C15451E6EA48C00FF253D /* LaunchScreen.storyboard */,
+				BA8C15481E6EA48C00FF253D /* Info.plist */,
+				BA8C15371E6EA48C00FF253D /* Supporting Files */,
+			);
+			path = "课堂测评第三期封装的View";
+			sourceTree = "<group>";
+		};
+		BA8C15371E6EA48C00FF253D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA8C15381E6EA48C00FF253D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA8C15501E6EA48C00FF253D /* 课堂测评第三期封装的ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8C15511E6EA48C00FF253D /* __________ViewTests.m */,
+				BA8C15531E6EA48C00FF253D /* Info.plist */,
+			);
+			path = "课堂测评第三期封装的ViewTests";
+			sourceTree = "<group>";
+		};
+		BA8C155B1E6EA48C00FF253D /* 课堂测评第三期封装的ViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8C155C1E6EA48C00FF253D /* __________ViewUITests.m */,
+				BA8C155E1E6EA48C00FF253D /* Info.plist */,
+			);
+			path = "课堂测评第三期封装的ViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA8C15331E6EA48C00FF253D /* 课堂测评第三期封装的View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8C15611E6EA48C00FF253D /* Build configuration list for PBXNativeTarget "课堂测评第三期封装的View" */;
+			buildPhases = (
+				BA8C15301E6EA48C00FF253D /* Sources */,
+				BA8C15311E6EA48C00FF253D /* Frameworks */,
+				BA8C15321E6EA48C00FF253D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "课堂测评第三期封装的View";
+			productName = "课堂测评第三期封装的View";
+			productReference = BA8C15341E6EA48C00FF253D /* 课堂测评第三期封装的View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA8C154C1E6EA48C00FF253D /* 课堂测评第三期封装的ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8C15641E6EA48C00FF253D /* Build configuration list for PBXNativeTarget "课堂测评第三期封装的ViewTests" */;
+			buildPhases = (
+				BA8C15491E6EA48C00FF253D /* Sources */,
+				BA8C154A1E6EA48C00FF253D /* Frameworks */,
+				BA8C154B1E6EA48C00FF253D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8C154F1E6EA48C00FF253D /* PBXTargetDependency */,
+			);
+			name = "课堂测评第三期封装的ViewTests";
+			productName = "课堂测评第三期封装的ViewTests";
+			productReference = BA8C154D1E6EA48C00FF253D /* 课堂测评第三期封装的ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA8C15571E6EA48C00FF253D /* 课堂测评第三期封装的ViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8C15671E6EA48C00FF253D /* Build configuration list for PBXNativeTarget "课堂测评第三期封装的ViewUITests" */;
+			buildPhases = (
+				BA8C15541E6EA48C00FF253D /* Sources */,
+				BA8C15551E6EA48C00FF253D /* Frameworks */,
+				BA8C15561E6EA48C00FF253D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8C155A1E6EA48C00FF253D /* PBXTargetDependency */,
+			);
+			name = "课堂测评第三期封装的ViewUITests";
+			productName = "课堂测评第三期封装的ViewUITests";
+			productReference = BA8C15581E6EA48C00FF253D /* 课堂测评第三期封装的ViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA8C152C1E6EA48C00FF253D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wanglei;
+				TargetAttributes = {
+					BA8C15331E6EA48C00FF253D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					BA8C154C1E6EA48C00FF253D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA8C15331E6EA48C00FF253D;
+					};
+					BA8C15571E6EA48C00FF253D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA8C15331E6EA48C00FF253D;
+					};
+				};
+			};
+			buildConfigurationList = BA8C152F1E6EA48C00FF253D /* Build configuration list for PBXProject "课堂测评第三期封装的View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA8C152B1E6EA48C00FF253D;
+			productRefGroup = BA8C15351E6EA48C00FF253D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA8C15331E6EA48C00FF253D /* 课堂测评第三期封装的View */,
+				BA8C154C1E6EA48C00FF253D /* 课堂测评第三期封装的ViewTests */,
+				BA8C15571E6EA48C00FF253D /* 课堂测评第三期封装的ViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA8C15321E6EA48C00FF253D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8C15471E6EA48C00FF253D /* LaunchScreen.storyboard in Resources */,
+				BAF2FADF1E712B78003AE20A /* dataSource.plist in Resources */,
+				BA8C15441E6EA48C00FF253D /* Assets.xcassets in Resources */,
+				BA8C15421E6EA48C00FF253D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8C154B1E6EA48C00FF253D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8C15561E6EA48C00FF253D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA8C15301E6EA48C00FF253D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8C153F1E6EA48C00FF253D /* ViewController.m in Sources */,
+				BA8C153C1E6EA48C00FF253D /* AppDelegate.m in Sources */,
+				BAF2FAE21E713670003AE20A /* SXLineChart.m in Sources */,
+				BA8C15711E6EBC9100FF253D /* SXClassTestReportChooseView.m in Sources */,
+				BA8C15391E6EA48C00FF253D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8C15491E6EA48C00FF253D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8C15521E6EA48C00FF253D /* __________ViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8C15541E6EA48C00FF253D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8C155D1E6EA48C00FF253D /* __________ViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA8C154F1E6EA48C00FF253D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8C15331E6EA48C00FF253D /* 课堂测评第三期封装的View */;
+			targetProxy = BA8C154E1E6EA48C00FF253D /* PBXContainerItemProxy */;
+		};
+		BA8C155A1E6EA48C00FF253D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8C15331E6EA48C00FF253D /* 课堂测评第三期封装的View */;
+			targetProxy = BA8C15591E6EA48C00FF253D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA8C15401E6EA48C00FF253D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8C15411E6EA48C00FF253D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA8C15451E6EA48C00FF253D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8C15461E6EA48C00FF253D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA8C155F1E6EA48C00FF253D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA8C15601E6EA48C00FF253D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA8C15621E6EA48C00FF253D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "课堂测评第三期封装的View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanglei.----------View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA8C15631E6EA48C00FF253D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "课堂测评第三期封装的View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanglei.----------View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA8C15651E6EA48C00FF253D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "课堂测评第三期封装的ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanglei.----------ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/课堂测评第三期封装的View.app/课堂测评第三期封装的View";
+			};
+			name = Debug;
+		};
+		BA8C15661E6EA48C00FF253D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "课堂测评第三期封装的ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanglei.----------ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/课堂测评第三期封装的View.app/课堂测评第三期封装的View";
+			};
+			name = Release;
+		};
+		BA8C15681E6EA48C00FF253D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "课堂测评第三期封装的ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanglei.----------ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "课堂测评第三期封装的View";
+			};
+			name = Debug;
+		};
+		BA8C15691E6EA48C00FF253D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "课堂测评第三期封装的ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanglei.----------ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "课堂测评第三期封装的View";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA8C152F1E6EA48C00FF253D /* Build configuration list for PBXProject "课堂测评第三期封装的View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8C155F1E6EA48C00FF253D /* Debug */,
+				BA8C15601E6EA48C00FF253D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8C15611E6EA48C00FF253D /* Build configuration list for PBXNativeTarget "课堂测评第三期封装的View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8C15621E6EA48C00FF253D /* Debug */,
+				BA8C15631E6EA48C00FF253D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8C15641E6EA48C00FF253D /* Build configuration list for PBXNativeTarget "课堂测评第三期封装的ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8C15651E6EA48C00FF253D /* Debug */,
+				BA8C15661E6EA48C00FF253D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8C15671E6EA48C00FF253D /* Build configuration list for PBXNativeTarget "课堂测评第三期封装的ViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8C15681E6EA48C00FF253D /* Debug */,
+				BA8C15691E6EA48C00FF253D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA8C152C1E6EA48C00FF253D /* Project object */;
+}
